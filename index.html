@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>heladeria</h1>
+    
+    <form name="myForm">
+        <h3>Datos del cliente:</h3>
+        <label for="nombreCliente">Nombre Cliente</label>
+        <input type="text" name="nombreCliente"><br />
+        <label for="telefonoCliente">Telefono Cliente</label>
+        <input type="text" name="telefonoCliente"><br />
+        
+        <h3>Sabor: </h3>
+        <label><input type="radio" name="sabor" value="Vainilla">Vanilla</label>
+        <label><input type="radio" name="sabor" value="Chocolate">Chocolate</label>
+        <label><input type="radio" name="sabor" value="Fresa">Fresa</label>
+        <br>
+
+        <h3>Extras: </h3>
+        <label><input type="checkbox" name="extras" value="Caramelo">Caramelo</label><br>  
+        <label><input type="checkbox" name="extras" value="Kitkat">Kitkat</label><br>
+        <label><input type="checkbox" name="extras" value="Chocolate">Chocolate</label><br>
+        <br>
+
+        <button onclick="imprimir()" type="button">Recibo</button>
+
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>
